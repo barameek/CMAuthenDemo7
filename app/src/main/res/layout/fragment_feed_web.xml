@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codemobiles.demo.authendemo.FeedWebServiceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PTT WEBSERVICE"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+
+        <LinearLayout
+            android:id="@+id/dieselLinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/number_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oilname_diesel"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilname_diesel" />
+
+            <TextView
+                android:id="@+id/dieselTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="00.00"
+                android:textColor="#ff4057"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/e85LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/number_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oilname_e85"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilname_e85" />
+
+            <TextView
+                android:id="@+id/e85TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="00.00"
+                android:textColor="#ff4057"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/e20LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/number_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oilname_e20"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilname_e20" />
+
+            <TextView
+                android:id="@+id/e20TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="00.00"
+                android:textColor="#ff4057"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gas91LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/number_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oilname_91"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilname_91" />
+
+            <TextView
+                android:id="@+id/gas91TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="00.00"
+                android:textColor="#ff4057"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gas95LinearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/number_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/oilname_95"
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/oilname_95" />
+
+            <TextView
+                android:id="@+id/gas95TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="00.00"
+                android:textColor="#ff4057"
+                android:textSize="45sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/cm_ptt_webservices" />
+</RelativeLayout>

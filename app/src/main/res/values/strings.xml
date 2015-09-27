@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_facebook_login">Facebook Login</string>
+    <string name="app_id">641494725973824</string>
+    <string name="app_name">CodeMobiles Training</string>
+    <string name="authen_failed_title">Authentication Failed!</string>
+    <string name="authen_failed_message">Your username or password have not been registered yet!, Do You Need to Register?</string>
+    <string name="register_failed_title">Registration Failed</string>
+    <string name="register_failed_message_invalid">Either username or password is not valid!</string>
+    <string name="register_failed_message_duplicate">This username is already registered.</string>
+    <string name="layout_main_title">Authentication</string>
+    <string name="layout_main_label_username">Username</string>
+    <string name="layout_main_label_hint_username">Username</string>
+    <string name="layout_main_label_password">Password</string>
+    <string name="layout_main_label_hint_password">Password</string>
+    <string name="layout_main_check_isremembered">  Remember password?</string>
+    <string name="layout_main_check_webservice_login">  Login with Webservice</string>
+    <string name="layout_main_check_run_notification">  Push Notification</string>
+    <string name="layout_main_label_register"><![CDATA[<font color="#feaa3f">SignUp </font> <font color="#a6a6a6"> if you have no an account</font>]]></string>
+    <string name="layout_reg_title">Registration</string>
+    <string name="sdcard_content">ไม่มี SD card หรือ SD card พื้นที่เต็ม</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="layout_main_btn_login">Login</string>
+    <string name="layout_main_btn_clear">Exit</string>
+    <string name="font_system">fonts/null</string>
+
+    <string name="long_text">1. Acceptance of Terms
+These AIRCOMVision Terms of Use ("Terms of Use") explain the relationship between you, who agree to the Terms of Use ("You", "Your") and SITA ("SITA") regarding your use of the AIRCOMVision portal ("AIRCOMVision"). SITA reserves the right to amend or change these Terms of Use at any time.
+
+Any order for goods or services made by You through AIRCOMVision shall not be binding on SITA until SITA formally accepts such and order and shall be governed by the terms and conditions provided by SITA at the time Your order is accepted and the terms of your contract with SITA.
+
+\n\n 2. Registration
+In consideration of Your use of the services provided by AIRCOMVision (the "Services"), You agree to be solely responsible for: a) providing true, accurate, current, and complete information about You as prompted by AIRCOMVision registration form (the "Registration Information"), and b) maintaining and promptly updating the Registration Information to keep it true, accurate, current and complete.
+
+Different passwords may be issued to You to access individual Services. You are solely responsible for the security of Your password and passwords. SITA is not liable for any unauthorised use of AIRCOMVision or for any damage or loss that you may suffer as a result of any unauthorised use of Your password.
+
+If You provide any information that is false, inaccurate, out of date, or incomplete, or SITA has reasonable grounds to suspect that such information is false, inaccurate, not current or incomplete, SITA may suspend or terminate Your use of AIRCOMVision. SITA agrees to make reasonable efforts to implement accurately Your requested changes, additions, or deletions to Registration Information within 7 business days of receipt of such written information but cannot accept any liability if it fails to do so.
+
+You are responsible for all costs and charges, including without limitation, phone charges and telecommunications equipment, that You incur in order to use the AIRCOMVision.
+
+\n\n 3. Confidentiality of SITA information
+In order to gain access to AIRCOMVision, You agree to these confidentiality provisions:</string>
+    <string name="title_activity_success2">Success2Activity</string>
+
+    <string-array name="slide_menu_titles">
+        <item/>
+        <item>CARTOON</item>
+        <item>DOCUMENTARY</item>
+        <item>MOVIE</item>
+        <item>NEWS</item>
+        <item>SPORT</item>
+        <item>SETTING</item>
+        <item>EXIT</item>
+    </string-array>
+    <string-array name="slide_menu_icon">
+        <item>@drawable/profile_pic</item>
+        <item>@drawable/menu_1_normal</item>
+        <item>@drawable/menu_2_normal</item>
+        <item>@drawable/menu_3_normal</item>
+        <item>@drawable/menu_4_normal</item>
+        <item>@drawable/menu_5_normal</item>
+        <item>@drawable/menu_6_normal</item>
+        <item>@drawable/menu_7_normal</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_success_activity_v2">SuccessActivityV2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

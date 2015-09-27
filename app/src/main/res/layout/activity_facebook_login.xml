@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9EAED"
+    tools:context="com.codemobiles.android.siamgold.FacebookLoginActivity">
+
+    <!-- Toolbar Begins -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_header"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/header_text_color"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="Android Workshop" />
+            <ImageView
+                android:id="@+id/upgradeBtn"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/cmdev_circle_logo"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <!-- Toolbar End -->
+
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Facebook"
+            android:textColor="#4F6AAB"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="#4F6AAB"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/fbImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/fbIDTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Facebook ID"
+            android:textColor="#4F6AAB"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fbNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Facebook Name"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/fbHashKeyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Facebook Hash Key"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/logoffBtn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/logout_fb_normal" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

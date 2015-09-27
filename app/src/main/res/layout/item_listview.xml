@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#77FFFFFF"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:id="@+id/item_listview_authorIcon"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:padding="3dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/item_listview_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/item_listview_authorIcon"
+            android:gravity="center_vertical"
+            android:text="Loading.."
+            android:textColor="#333333"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_listview_desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_listview_title"
+            android:layout_toRightOf="@+id/item_listview_authorIcon"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dip"
+            android:layout_marginBottom="8dp"
+            android:text="Description"
+            android:textColor="#333333"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_listview_youtube_image"
+        android:layout_width="fill_parent"
+        android:layout_height="180sp"
+        android:padding="4dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cmdev_logo" />
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- Toolbar Begins -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_header"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="In-App Purchase Demo"
+                android:textColor="@color/header_text_color"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <!-- Toolbar End -->
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/toolbar"
+        android:src="@drawable/google_wallet_bg" />
+
+
+</RelativeLayout>
